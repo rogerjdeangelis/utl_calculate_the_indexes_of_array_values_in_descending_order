@@ -80,7 +80,17 @@ import r=want data=wrk.want;
 run;quit;
 ');
 
-nteresting. But I find this a bit simpler, let alone wholly within the SAS' means:
+
+Complete SAS-L Threads
+
+" Multiplying by ten assures no corruption."
+
+More generally, multiplying (and MODing) by any integer greater than DIM(V) assures no corruption.
+
+<mkeintz@WHARTON.UPENN.EDU>
+
+
+interesting. But I find this a bit simpler, let alone wholly within the SAS' means:
 
 data wrk.want (drop = v1-v3) ;
   set sd1.have ;
